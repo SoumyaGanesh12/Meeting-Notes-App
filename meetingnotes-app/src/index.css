@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.app-container {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Example padding */
+}
+
+.app-container h1 {
+    color: #333; /* Dark grey color for headings */
+    font-family: Arial, sans-serif;
+}
+
+.app-container p {
+    color: #666; /* Lighter grey for paragraphs */
+    font-family: Georgia, serif;
+}
+
+.button {
+    background-color: yellowgreen; /* Bootstrap primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}

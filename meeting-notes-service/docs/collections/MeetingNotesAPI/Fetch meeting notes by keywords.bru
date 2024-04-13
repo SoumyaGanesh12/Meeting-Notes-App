@@ -1,0 +1,17 @@
+meta {
+  name: Fetch meeting notes by keywords
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:3000/meetingnotes/filter?startDate=2024-03-25T20:30:42.882Z&endDate=2024-03-30T20:30:42.882Z
+  body: none
+  auth: none
+}
+
+query {
+  startDate: 2024-03-25T20:30:42.882Z
+  endDate: 2024-03-30T20:30:42.882Z
+  ~keywords: customer
+}

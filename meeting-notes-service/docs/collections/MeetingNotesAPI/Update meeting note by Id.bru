@@ -1,0 +1,18 @@
+meta {
+  name: Update meeting note by Id
+  type: http
+  seq: 5
+}
+
+patch {
+  url: http://localhost:3000/meetingnotes/6604880238cc8acc7a9963cd
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Client Meeting New"
+  }
+  
+}
